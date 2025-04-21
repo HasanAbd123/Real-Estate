@@ -1,0 +1,40 @@
+@import "../../responsive.scss";
+
+.listpage {
+  display: flex;
+  height: 100%;
+  @include md {
+    flex-direction: column;
+    overflow: scroll;
+  }
+  .listcontainer {
+    flex: 3;
+    height: 100%;
+    overflow: scroll;
+    @include md {
+      flex: none;
+      height: max-content;
+      overflow: hidden;
+    }
+    .wrapper {
+      height: 100%;
+      padding-right: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      overflow-y: scroll;
+      padding-bottom: 50px;
+    }
+  }
+  .mapcontainer {
+    flex: 2;
+    background-color: #fcf5f3;
+    height: 100%;
+    @include md {
+      flex: none;
+      height: max-content;
+      width: 90vw;
+      height: 90%;
+    }
+  }
+}
