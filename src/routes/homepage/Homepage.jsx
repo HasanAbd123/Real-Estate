@@ -1,10 +1,14 @@
 import SearchBar from "../../components/searchbar/SearchBar";
 import "./homepage.scss";
 import im2 from "../../assets/images/hom/im2.jpg";
+import InstallPWAButton from "../../components/mobile/InstallPWAButton";
+import InstallButton from "../../components/installpwa/InstallButton";
+
 function Homepage() {
   return (
     <div className="homepage">
       <div className="textContainer">
+        <InstallButton />
         <div className="wrapper">
           <h1 className="title">Find Real Estate & Get Your Dream place</h1>
           <p>

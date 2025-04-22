@@ -1,0 +1,13 @@
+.bb {
+  background-color: rgb(233, 203, 86);
+  width: 160px;
+  height: 50px;
+  border-radius: 25px;
+  color: black;
+  font-weight: bold;
+  font-size: 19px;
+  cursor: pointer;
+}
+.bb:active {
+  scale: 1.01;
+}
