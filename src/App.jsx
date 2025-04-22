@@ -37,7 +37,7 @@ function App() {
         ],
       },
     ],
-    { basename: "/Real-Estate" }
+    { basename: "/Real-Estate/" }
   );
   return <RouterProvider router={router} />;
 }
