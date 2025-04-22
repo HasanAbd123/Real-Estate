@@ -56,6 +56,7 @@ nav {
       display: flex;
       align-items: center;
       font-weight: bold;
+
       img {
         width: 40px;
         height: 40px;
@@ -63,6 +64,7 @@ nav {
         object-fit: cover;
         margin-right: 20px;
       }
+
       span {
         @include sm {
           display: none;
@@ -126,8 +128,13 @@ nav {
       align-items: center;
       justify-content: center;
       font-size: 24px;
+      @include sm {
+        display: none;
+      }
       &.active {
         right: 0;
+        right: 0;
+        display: inherit;
       }
       a {
         @include sm {
