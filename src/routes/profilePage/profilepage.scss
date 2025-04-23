@@ -31,6 +31,7 @@
 
         h1 {
           font-weight: 300;
+          font-size: 1.5rem;
         }
 
         button {
@@ -65,7 +66,7 @@
     flex: 2;
     background-color: #fcf5f3;
     height: 100%;
-
+    overflow-y: scroll;
     @include md {
       flex: none;
       height: max-content;

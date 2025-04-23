@@ -35,7 +35,7 @@ function InstallButton() {
   return (
     <div>
       <button onClick={handleInstallClick} className="bb">
-        تثبيت التطبيق
+        Install App
       </button>
     </div>
   );

@@ -8,13 +8,9 @@ function Homepage() {
   return (
     <div className="homepage">
       <div className="textContainer">
-        <InstallButton />
         <div className="wrapper">
           <h1 className="title">Find Real Estate & Get Your Dream place</h1>
-          <p>
-            ldskfnjlsanfjnvjkfvbjfknmdnms,dmc vn vnf vn xnzv,mvncmxkdsnvfvm,vmz
-            cmv m, fvkfnv fm,v mf,d vf vnfd vf,mnvm, nfdvjfjvn mv f
-          </p>
+          <InstallButton />
 
           <SearchBar />
           <div className="boxes">

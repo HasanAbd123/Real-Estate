@@ -25,6 +25,12 @@
       gap: 50px;
       overflow-y: scroll;
       padding-bottom: 50px;
+      @include sm {
+        overflow: hidden;
+        padding-right: 0px;
+        gap: 30px;
+        padding-bottom: 30px;
+      }
     }
   }
   .mapcontainer {
@@ -36,6 +42,15 @@
       height: max-content;
       width: 90vw;
       height: 90%;
+    }
+    @include sm {
+      overflow: hidden;
+      padding-right: 0px;
+      gap: 30px;
+      padding-bottom: 30px;
+      width: 85vw;
+      height: 60%;
+      z-index: -99;
     }
   }
 }

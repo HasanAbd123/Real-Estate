@@ -36,11 +36,17 @@
       display: flex;
       justify-content: space-between;
       gap: 20px;
+      @include sm {
+        gap: 0px;
+      }
     }
     .c {
       display: flex;
       justify-content: space-between;
       gap: 20px;
+      @include sm {
+        gap: 0px;
+      }
     }
     @include sm {
       flex-direction: column;
